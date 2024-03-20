@@ -1,6 +1,6 @@
 import random
 
-
+# verifica se num faz parte da sequencia de Fibo
 def check_number_exist(num):    
     value_b = 1
     value_A, sum = 0, 0
@@ -17,7 +17,7 @@ def check_number_exist(num):
     else:
         print(f'O valor {num} não pertence a sequência de Fibonacci')
 
-
+# loop para a escolha do numero
 def main():
     while 1:
         check_input = input(" * Se deseja informar um valor digite 1;\n * Pressione enter para um número aleatório \n * Ou informe 2 para finalizar: \n")
